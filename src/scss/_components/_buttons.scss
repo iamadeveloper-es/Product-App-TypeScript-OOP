@@ -1,0 +1,17 @@
+.btn_custom{
+    @include btnCustom;
+    &.btn_navy{
+        background-color: $lightNavy;
+        color: $white;
+        &:hover{
+            background-color: $lightNavyHover;
+        }
+    }
+    &.btn_danger{
+        background-color: $danger;
+        color: $white;
+        &:hover{
+            background-color: $dangerHover;
+        }
+    }
+}

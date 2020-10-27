@@ -1,0 +1,27 @@
+.form{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid $lightGrey;
+    border-radius: $regRadius;
+    label, input{
+        display: block;
+        width: 100%;
+    }
+    label{
+        margin-bottom: .3rem;
+    }
+    input{
+        border: 1px solid $lightGrey;
+        height: 35px;
+        border-radius: $regRadius;
+        margin-bottom: 1rem;
+        padding-left: 15px;
+    }
+    .form-header, .form-body{
+        padding: 1rem;
+    }
+    .form-header{
+        background-color: $regularGrey;
+    }
+}

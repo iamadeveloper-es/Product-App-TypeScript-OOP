@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+           <h1>Product App TypeScript OOP</h1> 
+        </div>        
+    </header>
+    <div class="main-wrapper">
+        <div class="flex-container">
+            <div class="flex-item flex-4">
+                <form id="product-form" class="form">
+                    <div class="form-header">
+                      <h2>Add a Product</h2>  
+                    </div> 
+                    <div class="form-body">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                        <label for="price">Price</label>
+                        <input type="number" name="price" id="price" step="0.01" min="0">
+                        <label for="year">Year</label>
+                        <input type="number" name="year" id="year" min="1900" value="2018">
+                        <button class="btn_custom btn_navy" id="submit" type="submit">Save</button>
+                    </div>           
+                </form>
+            </div>
+            <div class="flex-item flex-8">
+                <h2>Product List</h2>
+                <div id="product-list"></div> 
+            </div>
+        </div>
+    </div>    
+    <script src="js/index.js"></script>
+</body>
+</html>

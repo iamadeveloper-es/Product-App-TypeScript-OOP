@@ -1,0 +1,21 @@
+.alert{
+    padding: 1rem;
+    border-radius: $regRadius;
+    margin-bottom: 1rem;
+    &.alert_success{
+        background-color: $success;
+        color: $white;
+    }
+    &.alert_danger{
+        background-color: $danger;
+        color: $white;
+    }
+    &.alert_danger{
+        background-color: $danger;
+        color: $white;
+    }
+    &.alert_warning{
+        background-color: $warning;
+        color: $white;
+    }
+}

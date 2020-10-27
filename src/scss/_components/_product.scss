@@ -1,0 +1,15 @@
+.product-container {
+    padding: 1.5rem 1rem;
+    background-color: $lightGrey;
+    border-radius: $regRadius;
+    margin-bottom: .5rem;
+    border: 1px solid $lightGrey;
+    .product-body.text-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .btn_delete{
+        margin-left: 2rem;
+    }
+}
